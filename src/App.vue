@@ -25,7 +25,7 @@
           v-model="lastName" required />
 
           <input type="number"
-          placeholder="Имя"
+          placeholder="Стаж"
           v-model="experience" required />
 
           <input type="number"
