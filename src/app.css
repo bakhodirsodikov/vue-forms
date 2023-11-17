@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.966);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+.form h2 {
+  padding-bottom: 20px;
+}
+
+.form__close-container {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: end;
+}
+.form__close-container .btn {
+  color: whitesmoke;
+}
+
+.form-example {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-example input {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: transparent;
+  margin: 10px 0;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+.form-example input:focus {
+  border: none;
+  box-shadow: -9px 7px 20px -3px rgba(179, 186, 185, 0.5);
+}
+.form-example input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  color: #b0b0b0;
+}
+.form-example input::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  color: #b0b0b0;
+}
+.form-example input::-webkit-outer-spin-button, .form-example input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form-example input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-el {
+  width: 100%;
+  display: flex;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.add {
+  color: #3CB371;
+  border-color: #3CB371;
+}
+
+.change {
+  color: #00BFFF;
+  border-color: #00BFFF;
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #00BFFF;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.form__submit-btn, .form__change-btn {
+  width: 100%;
+  max-width: 200px;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #3CB371;
+  color: white;
+  margin: 0;
+}
+.form__submit-btn:hover, .form__change-btn:hover {
+  cursor: pointer;
+}
+
+.form__change-btn {
+  background-color: #00BFFF;
+}
+
+.delete-btn {
+  background-color: #F08080;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 5px;
+}
+
+.workers-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  text-align: center;
+}
+.workers-table th, .workers-table td {
+  border: 1px solid grey;
+  padding: 2px 0;
+}/*# sourceMappingURL=app.css.map */
